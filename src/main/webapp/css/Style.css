@@ -1,0 +1,58 @@
+.letter{
+    font-family: "Arial Black";
+    font-size: xx-large;
+    margin-left: 100px;
+}
+
+.div{
+    margin-left: 100px;
+    align-content: center;
+}
+
+.input{
+    display: block;
+    margin-bottom: 12px;
+    border-color: transparent;
+    border-bottom-color: #02ff00;
+    border-radius: 2px;
+    font-size: large;
+    font-family: "Arial";
+
+    transition: transform .2s;
+}
+
+.input:hover{
+    transform: scale(0.9);
+}
+
+.buttom{
+    align-content: center;
+    font-family: Arial;
+    font-size: large;
+    border-color: transparent;
+    border-radius: 4px;
+    margin-top: 12px;
+    color: rgba(0,0,0,0.9);
+    background-color: #02ff00;
+
+    transition: transform .2s;
+}
+
+.buttom:hover{
+    transform: scale(1.2);
+}
+
+.text{
+    font-size: large;
+    font-family: Arial;
+}
+
+.jump{
+    color: transparent;
+}
+
+.error{
+    font-size: small;
+    font-family: "Century Gothic";
+    color: red;
+}
